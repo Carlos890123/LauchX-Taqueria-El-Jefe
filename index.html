@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon " href="img/LogoOpaco.png">
+    <title>Taqueria "EL JEFE"</title>
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header class="header">
+
+        <nav class="nav">
+            <!-- LOGO NAVBAR -->
+            <img src="img/LogoTransparente.png" alt="logoTaqueria" class="logo">
+            <!-- OPCIONES NAVBAR -->
+            <ul class="nav-menu">
+                <li class="nav-menu-item"> <a href="#menu" class="nav-menu-link">MENU</a> </li>
+                <li class="nav-menu-item"> <a href="#orden" class="nav-menu-link">ORDENA AQUI</a> </li>
+                <li class="nav-menu-item"> <a href="#nosotros" class="nav-menu-link">NOSOTROS</a> </li>
+                <li class="nav-menu-item"> <a href="#mapa" class="nav-menu-link">ENCUENTRANOS EN:</a> </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <br>
+
+    <!-- CONTENIDO PRINCIPAL DE LA PÁGINA -->
+    <main class="main">
+
+        <section class="menu-section " id="menu">
+            <h1 class="titulo">MENU</h1>
+            <h2 class="subtitulo">ORDENES</h2>
+            <div class="menu">
+                <article class="item">
+                    <p class="food">PASTOR</p>
+                    <p class="price">3.00</p>
+                </article>
+                <article class="item">
+                    <p class="food">SUADERO</p>
+                    <p class="price">3.75</p>
+                </article>
+                <article class="item">
+                    <p class="food">LONGANIZA</p>
+                    <p class="price">3.50</p>
+                </article>
+                <article class="item">
+                    <p class="food">BISTEK</p>
+                    <p class="price">4.00</p>
+                </article>
+                <article class="item">
+                    <p class="food">CECINA</p>
+                    <p class="price">4.50</p>
+                </article>
+            </div>
+            <div class="image">
+                <img src="img/PLATILLOS/Pastor.jpg" alt="">
+            </div>
+            <h2 class="subtitulo">GRINGAS</h2>
+            <div class="menu-gringas">
+                <div class="izquierda">
+                    <ul>
+                        <li>PASTOR</li>
+                        <li>BISTEK</li>
+                        <li>SUADERO</li>
+                    </ul>
+                </div>
+                <div class="derecha">
+                    <ul>
+                        <li>40</li>
+                        <li>50</li>
+                        <li>60</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="image">
+                <img src="img/PLATILLOS/GRINGA.jpg" alt="">
+            </div>
+
+        </section>
+
+        <hr>
+        <section class="section_order" id="orden">
+            <h1 class="titulo">ORDENA AQUI</h1>
+            <h2 class="subtitulo">DATOS DE CONTACTO</h2>
+            <div class="formulario">
+                <form action="">
+                    <label for="nom_CLiente">NOMBRE DEL CLIENTE</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <label for="direccion">DIRECCION</label>
+                    <br>
+                    <input type="text">
+                    <br>
+                    <label for="nom_CLiente">NUMERO TELEFONICO</label>
+                    <br>
+                    <input type="Number">
+                    <br>
+                    <label for="">PEDIDO</label>
+                    <br>
+                    <input type="checkbox">Tacos Pastor
+                    <input type="checkbox">Tacos Suadero
+                    <input type="checkbox">Tacos Suadero
+                    <br>
+                    <input type="checkbox">Gringa Suadero
+                    <input type="checkbox">Gringa Pastor
+                    <br>
+                    <input type="checkbox">Salsa Roja
+                    <input type="checkbox">Salsa Verde
+                    <br>
+                    <input type="submit" value="Realizar Pedido">
+                    <br>
+                    <img src="img/LogoTransparente.png" alt="">
+                </form>
+                <br>
+            </div>
+        </section>
+
+        <hr>
+        <section class="us_section" id="nosotros">
+            <h1 class="titulo">ACERCA NOSOTROS</h1>
+            <div class="contenedor">
+                <div class="izquierda-us">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto delectus eos eius sequi et
+                        tempore.
+                        Eaque impedit dolorum minus fuga consequatur, aperiam temporibus unde optio ad nihil labore
+                        doloremque! Consequuntur.
+                        Nam eius voluptate officia, tempore alias unde labore, modi blanditiis facere quaerat eos
+                        repellendus itaque atque mollitia voluptatum fuga quas? Cum dolores pariatur aliquam nisi fugiat
+                        eligendi laudantium voluptatum iste.
+                        In perferendis non esse odit? Voluptas aspernatur earum at quas ab dolorum, quibusdam eius,
+                        quasi
+                        asperiores, iste doloremque iusto quidem. Veniam doloribus sit, architecto alias earum ipsam
+                        animi
+                        modi officiis?</p>
+                </div>
+                <div class="derecha-us">
+                    <img src="img/Nosotros/Taqueria.jpg" alt="Imagen" class="taqueria">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="findus_section" id="mapa">
+            <h1 class="titulo">VEN Y VISITANOS EN NUESTRA SUCURSAL</h1>
+            <div class="container-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15029.185835709515!2d-99.1345574024774!3d19.657353628296914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f45ac631b6fb%3A0x84090788ed884a63!2sTaquer%C3%ADa%20Quetzal!5e0!3m2!1ses!2smx!4v1666495813390!5m2!1ses!2smx"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <hr>
+
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <div class="col1">
+                <ul class="nav-menu-footer">
+                    <li class="nav-menu-item-footer"> <a href="#menu" class="nav-menu-link-footer">MENU</a> </li>
+                    <li class="nav-menu-item-footer"> <a href="#orden" class="nav-menu-link-footer">ORDENA AQUI</a> </li>
+                    <li class="nav-menu-item-footer"> <a href="#nosotros" class="nav-menu-link-footer">NOSOTROS</a> </li>
+                    <li class="nav-menu-item-footer"> <a href="#mapa" class="nav-menu-link-footer">ENCUENTRANOS EN:</a> </li>
+                </ul>
+            </div>
+            <div class="col2">
+                <p>SUGERENCIA</p>
+            </div>
+            <div class="col3">
+                <p class="contacto">CONTACTO</p>
+                <p class="contacto">5590875678</p>
+                <p class="contacto">tacodeljefe@gmail.com</p>
+            </div>
+        </div>
+        <p class="copy">&copy; TODOS LOS DERECHOS RESERVADOS</p>
+
+    </footer>
+
+</body>
+
+</html>

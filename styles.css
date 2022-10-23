@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+}
+
+hr {
+  border: 2px solid brown;
+  background-color: brown;
+}
+/* ------------------------------------- */
+/* HEADER */
+.header {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(228, 196, 35);
+}
+
+/* HEADER CONTENEDOR */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+/* HEADER/LOGO */
+.logo {
+  width: 100px;
+}
+
+/* HEADER/LISTA DESORDENADA */
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+/* HEADER/ELEMENTOS LISTA */
+.nav-menu-item {
+  margin: 0 5px;
+}
+
+/* LINKEOS NAVBAR */
+.nav-menu-link {
+  text-decoration: none;
+  color: brown;
+}
+
+/* --------------------------------------------- */
+/* MAIN */
+.main {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+/* MAIN TITULOS */
+.titulo {
+  color: brown;
+  text-align: center;
+}
+
+.subtitulo {
+  color: brown;
+  text-align: left;
+}
+
+.menu-section {
+  margin: 0 10%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-gringas {
+  display: block;
+  text-align: center;
+}
+
+.izquierda {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+}
+
+.derecha {
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+}
+
+.izquierda ul,
+.derecha ul {
+  list-style: none;
+}
+
+.item p {
+  text-align: center;
+}
+
+/* FORMULARIO */
+.formulario {
+  width: 80%;
+  background-color: rgb(228, 196, 35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+form {
+  padding: 10px;
+}
+
+label,
+input {
+  margin: 10px;
+}
+
+/* US */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.izquierda-us {
+  background-color: rgb(228, 196, 35);
+  font-size: 20px;
+  width: 45%;
+  height: 100%;
+  padding: 10px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.derecha-us {
+  width: 45%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taqueria{
+  width: 100%;
+}
+/* ENCUENTRANOS */
+.container-map {
+  background-color: rgb(228, 196, 35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: rgb(228, 196, 35);
+  color: gray;
+}
+.contenedor-footer {
+  width: 100%;
+  background-color: rgb(228, 196, 35);
+  display: flex;
+  justify-content: center;
+}
+
+.col1,
+.col2,
+.col3 {
+  /* border: 2px solid black; */
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.nav-menu-footer{
+  list-style: none;
+}
+
+.nav-menu-link-footer {
+  text-decoration: none;
+  color: gray;
+}
+
+.nav-menu-item-footer{
+  color: gray;
+}
+
+.footer-menu-items{
+  text-decoration: none;
+}
+
+.col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col3 {
+  display: block;
+  text-align: right;
+}
+
+.copy {
+  text-align: center;
+}
